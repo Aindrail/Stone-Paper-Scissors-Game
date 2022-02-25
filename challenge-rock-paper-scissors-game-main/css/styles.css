@@ -45,7 +45,7 @@ HTML elements
   padding-left: 30px;
 }
 
-.score , .botScore {
+/* .score , .botScore {
   width: 150px;
   height: 114px;
   background-color: white;
@@ -56,7 +56,7 @@ HTML elements
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .score h1 , .botScore h1 {
   color: #565468;
