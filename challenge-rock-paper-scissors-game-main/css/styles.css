@@ -108,9 +108,9 @@ HTML elements
   transition: all 0.25s;
 }
 //pop up animation
-/* .hands .hand:hover {
+.hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
-} */
+}
 
 .contest {
   display: none;
