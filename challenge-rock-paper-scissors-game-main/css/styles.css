@@ -154,7 +154,7 @@ HTML elements
   justify-content: center;
  } /* to place the image in center of div */
 
-/* .referee {
+.referee {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +164,7 @@ HTML elements
 .referee h1 {
   font-size: 45px;
   color: white;
-} */
+}
 
 .computerhand {
   display: flex;
