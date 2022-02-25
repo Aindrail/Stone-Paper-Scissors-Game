@@ -112,7 +112,7 @@ HTML elements
   transform: translate3d(0px, -8px, 0px);
 }
 
-.contest {
+/* .contest {
   display: none;
   margin-top: 50px;
   width: 900px;
@@ -123,9 +123,9 @@ HTML elements
   height: 275px;
 }
 
-.contest > div {
+ .contest > div { /* here > means that it will target the div just below but no the div inside */
   flex: 1;
-}
+} */
 
 .contest h1 {
   color: white;
