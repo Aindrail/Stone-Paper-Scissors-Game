@@ -41,9 +41,9 @@ HTML elements
   margin-top: 50px;
 }
 
-/* .title {
+.title {
   padding-left: 30px;
-} */
+}
 
 .score , .botScore {
   width: 150px;
