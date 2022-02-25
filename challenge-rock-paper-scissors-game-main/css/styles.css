@@ -135,7 +135,8 @@ HTML elements
   text-align: center;
 }
 
-.contest .newGame {
+a button is created 
+/* .contest .newGame {
   color: hsl(229, 25%, 31%);
   background-color: white;
   padding: 12px 24px;
@@ -147,7 +148,7 @@ HTML elements
 .newGame:hover {
   background: rgb(218, 218, 218);
   transform: translate3d(0px, -2px, 0px);
-}
+} */
 
 .contest .handImageContainer {
   display: flex;
