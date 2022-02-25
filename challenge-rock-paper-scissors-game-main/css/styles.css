@@ -74,7 +74,7 @@ HTML elements
   text-align: left;
 }
 
-/* .hands {
+.hands {
   background-image: url("../assets/triangle.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ HTML elements
   z-index: 0;
   flex-wrap: wrap;
   justify-content: center;
-} */
+}
 .hands img {
   width: 200px;
   height: 200px;
