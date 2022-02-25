@@ -31,21 +31,21 @@ HTML elements
 }
 
 .scoreboard {
-  width: 700px;
+  width: 700px; 
   height: 150px;
   border-radius: 15px;
   border: 1px solid white;
   display: flex;
-  justify-content: space-between;
+   justify-content: space-between; /*to display space in between items/content */
   align-items: center;
   margin-top: 50px;
 }
 
-.title {
+/* .title {
   padding-left: 30px;
-}
+} */
 
-.score {
+.score , .botScore {
   width: 150px;
   height: 114px;
   background-color: white;
@@ -58,13 +58,13 @@ HTML elements
   align-items: center;
 }
 
-.score h1 {
+.score h1 , .botScore h1 {
   color: #565468;
   font-size: 56px;
   font-family: "Barlow", sans-serif;
 }
 
-.score p {
+.score p , .botScore p{
   color: #2a45c2;
   font-size: 16px;
   font-style: normal;
