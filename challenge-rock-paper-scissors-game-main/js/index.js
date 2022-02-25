@@ -5,11 +5,12 @@ const handOptions = {
 }
 
 let SCORE = 0;
-
+//=> is the new way to write function
 const pickUserHand = (hand) => {
+  //hide current div
   let hands = document.querySelector(".hands");
   hands.style.display = "none";
-
+//show next page
   let contest = document.querySelector(".contest");
   contest.style.display = "flex";
 
