@@ -30,7 +30,7 @@ HTML elements
   );
 }
 
-/* .scoreboard {
+.scoreboard {
   width: 700px;
   height: 150px;
   border-radius: 15px;
@@ -39,7 +39,7 @@ HTML elements
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
-} */
+}
 
 .title {
   padding-left: 30px;
