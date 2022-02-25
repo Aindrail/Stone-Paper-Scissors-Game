@@ -107,10 +107,10 @@ HTML elements
   cursor: pointer;
   transition: all 0.25s;
 }
-
-.hands .hand:hover {
+//pop up animation
+/* .hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
-}
+} */
 
 .contest {
   display: none;
