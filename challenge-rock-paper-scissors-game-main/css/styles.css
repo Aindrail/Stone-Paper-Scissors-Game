@@ -58,7 +58,7 @@ HTML elements
   align-items: center;
 }
 
-/* .score h1 , .botScore h1 {
+.score h1 , .botScore h1 {
   color: #565468;
   font-size: 56px;
   font-family: "Barlow", sans-serif;
@@ -72,7 +72,7 @@ HTML elements
   line-height: 19px;
   letter-spacing: 2.5px;
   text-align: left;
-} */
+}
 
 .hands {
   background-image: url("../assets/triangle.png");
