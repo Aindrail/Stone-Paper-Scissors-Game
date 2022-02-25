@@ -95,7 +95,7 @@ HTML elements
   display: block;
 }
 
-/* .hands .paper {
+.hands .paper {
   margin-right: 20px;
 }
 
@@ -106,7 +106,7 @@ HTML elements
 .hands .hand {
   cursor: pointer;
    transition: all 0.25s; /* to avoid gittering */
-} */
+}
 /* pop up animation */
 .hands .hand:hover {
   transform: translate3d(0px, -8px, 0px);
