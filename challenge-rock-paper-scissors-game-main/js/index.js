@@ -55,17 +55,17 @@ const referee = (userHand, cpHand) => {
   if (userHand == "rock" && cpHand == "rock") {
     setDecision("It's a tie!");
   }
-  if (userHand == "scissors" && cpHand == "scissors") {
-    setDecision("It's a tie!");
-  }
-  if (userHand == "scissors" && cpHand == "rock") {
-    setDecision("YOU LOSE!");
-    setCompScore(CompSCORE + 1);
-  }
-  if (userHand == "scissors" && cpHand == "paper") {
-    setDecision("YOU WIN!");
-    setScore(SCORE + 1);
-  }
+  // if (userHand == "scissors" && cpHand == "scissors") {
+  //   setDecision("It's a tie!");
+  // }
+  // if (userHand == "scissors" && cpHand == "rock") {
+  //   setDecision("YOU LOSE!");
+  //   setCompScore(CompSCORE + 1);
+  // }
+  // if (userHand == "scissors" && cpHand == "paper") {
+  //   setDecision("YOU WIN!");
+  //   setScore(SCORE + 1);
+  // }
 };
 
 const restartGame = () => {
