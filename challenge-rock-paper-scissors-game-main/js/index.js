@@ -33,17 +33,17 @@ const pickComputerHand = (hand) => {
 };
 
 const referee = (userHand, cpHand) => {
-  if (userHand == "paper" && cpHand == "scissors") {
-    setDecision("YOU LOSE!");
-    setCompScore(CompSCORE + 1);
-  }
-  if (userHand == "paper" && cpHand == "rock") {
-    setDecision("YOU WIN!");
-    setScore(SCORE + 1);
-  }
-  if (userHand == "paper" && cpHand == "paper") {
-    setDecision("It's a tie!");
-  }
+  // if (userHand == "paper" && cpHand == "scissors") {
+  //   setDecision("YOU LOSE!");
+  //   setCompScore(CompSCORE + 1);
+  // }
+  // if (userHand == "paper" && cpHand == "rock") {
+  //   setDecision("YOU WIN!");
+  //   setScore(SCORE + 1);
+  // }
+  // if (userHand == "paper" && cpHand == "paper") {
+  //   setDecision("It's a tie!");
+  // }
   if (userHand == "rock" && cpHand == "scissors") {
     setDecision("YOU WIN!");
     setScore(SCORE + 1);
