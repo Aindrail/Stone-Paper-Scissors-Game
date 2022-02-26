@@ -21,15 +21,15 @@ const pickUserHand = (hand) => {
   pickComputerHand(hand);
 };
 
-// const pickComputerHand = (hand) => {
-//     let hands = ["rock", "paper", "scissors"];
-//     let cpHand = hands[Math.floor(Math.random() * hands.length)];
+const pickComputerHand = (hand) => {
+    let hands = ["rock", "paper", "scissors"];
+    let cpHand = hands[Math.floor(Math.random() * hands.length)];
     
-//     // set computer image 
-//     document.getElementById("computerPickImage").src = handOptions[cpHand]
+    // set computer image 
+    document.getElementById("computerPickImage").src = handOptions[cpHand]
     
-//     referee(hand, cpHand);
-// };
+    referee(hand, cpHand);
+};
 
 const referee = (userHand, cpHand) => {
   if (userHand == "paper" && cpHand == "scissors") {
