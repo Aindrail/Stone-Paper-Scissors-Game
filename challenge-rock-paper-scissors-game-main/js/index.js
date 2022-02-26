@@ -1,8 +1,9 @@
-const handOptions = {
-  "rock": "assets/Rock.png",
-  "paper": "assets/Paper.png",
-  "scissors": "assets/Scissors.png"
-}
+// const handOptions = {
+//   "rock": "assets/Rock.png",
+//   "paper": "assets/Paper.png",
+//   "scissors": "assets/Scissors.png"
+// } 
+//Dictionary Object
 
 let SCORE = 0;
 //=> is the new way to write function
