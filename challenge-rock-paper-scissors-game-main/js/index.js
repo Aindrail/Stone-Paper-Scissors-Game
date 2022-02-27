@@ -69,9 +69,10 @@ const referee = (userHand, cpHand) => {
 };
 
 const restartGame = () => {
+  //hide contest and unhide hands(main page)
   let contest = document.querySelector(".contest");
   contest.style.display = "none";
-
+//unhide hands
   let hands = document.querySelector(".hands");
   hands.style.display = "flex";
 }
@@ -100,8 +101,8 @@ const setScore = (newScore) => {
   document.querySelector(".score h1").innerText = newScore;
   
 }
-const setCompScore = (newScore) => {
-  CompSCORE = newScore;
-  document.querySelector(".botScore h1").innerText = newScore;
+// const setCompScore = (newScore) => {
+//   CompSCORE = newScore;
+//   document.querySelector(".botScore h1").innerText = newScore;
   
-}
+// }
