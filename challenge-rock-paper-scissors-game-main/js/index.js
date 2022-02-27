@@ -101,8 +101,8 @@ const setScore = (newScore) => {
   document.querySelector(".score h1").innerText = newScore;
   
 }
-// const setCompScore = (newScore) => {
-//   CompSCORE = newScore;
-//   document.querySelector(".botScore h1").innerText = newScore;
+const setCompScore = (newScore) => {
+  CompSCORE = newScore;
+  document.querySelector(".botScore h1").innerText = newScore;
   
-// }
+}
