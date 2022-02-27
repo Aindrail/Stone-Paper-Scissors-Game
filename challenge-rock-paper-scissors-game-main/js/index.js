@@ -68,30 +68,28 @@ const referee = (userHand, cpHand) => {
   }
 };
 
-const restartGame = () => {
-  let contest = document.querySelector(".contest");
-  contest.style.display = "none";
+// const restartGame = () => {
+//   let contest = document.querySelector(".contest");
+//   contest.style.display = "none";
 
-  let hands = document.querySelector(".hands");
-  hands.style.display = "flex";
-}
+//   let hands = document.querySelector(".hands");
+//   hands.style.display = "flex";
+// }
 
 const setDecision = (decision) => {
   document.querySelector(".decision h1").innerText = decision;
   // document.querySelector(".decision h1").style.textShadow = "0 0 30px #ff0000" ;
-  console.log(decision);
+
 
   if(decision == "YOU LOSE!"){
-    console.log(decision);
+ 
     document.querySelector(".decision h1").style.textShadow = "0 0 15px #ff0000" ;
   }
   if(decision == "YOU WIN!"){
-    console.log(decision);
+  
     document.querySelector(".decision h1").style.textShadow = "0 0 15px #00ff00" ;
   }
   if(decision == "It's a tie!"){
-    console.log(decision);
-
     document.querySelector(".decision h1").style.textShadow = "0 0 15px 	#ffff00" ;
   }
   
